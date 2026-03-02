@@ -20,3 +20,5 @@ print(my_other_set)
 #posibilidad de hacer busquedas
 print("Diaz" in my_other_set)
 print("Diez" in my_other_set)
+
+my_list = list(my_set)

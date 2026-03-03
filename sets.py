@@ -21,4 +21,13 @@ print(my_other_set)
 print("Diaz" in my_other_set)
 print("Diez" in my_other_set)
 
-my_list = list(my_set)
+my_list = list(my_other_set)
+print(my_list)
+print(my_list[0])
+my_set ={"Carlos", 91, "Andres"}
+print(my_set)
+
+my_new_set =  my_set.union(my_other_set)
+print(my_new_set)
+
+print(type(my_new_set))
